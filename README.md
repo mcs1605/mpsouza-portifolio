@@ -12,7 +12,7 @@ Esse foram os primeiros projetos de páginas em HTML-CSS-JS
   Objetivo: adicionar ao menos 50 páginas que envolve páginas simples, blogs, templates, repositórios, bibliotecas, etc...
 
   PÁGINAS ADICIONADAS E EM DESENVOLVIMENTO
-    cobras-expedicionarias.atwebpages.com | 
-    horror-ebooks.atwebpages.com | 
-    projetoAnnaBellaCSS | 
-    projetoUNES | 
+    cobras-expedicionarias.atwebpages.com;
+    horror-ebooks.atwebpages.com;
+    projetoAnnaBellaCSS;
+    projetoUNES;
