@@ -1,0 +1,142 @@
+/*Portifolio*/
+
+html{
+  background-color: black;
+  min-height: 100%;
+  width: 100%;
+  object-fit: cover; 
+}
+
+h1{
+  font-family: Helvetica;
+  font-size: 60px;
+  color: white;
+  text-shadow: 2px 2px 2px black;
+  color: lightgray;
+}
+
+h2{
+  font-family: monospace;
+  font-size: 30px;
+  color: white;
+  text-shadow: 2px 2px 2px black;
+  text-align: center;
+  }
+
+p{
+  font-family: Verdana;
+  font-size: 22px;
+  color: white;
+}
+
+div{
+  display: inline-block;
+}
+
+header{ 
+  display: inline-block;
+  background-color: rgba(0, 0, 0, 0.6);
+  height: 450px;
+  width: 100%;
+}
+
+#titulo{
+  position: relative;
+  font-size: 20px;
+  height: 100px;
+  width: 400px;
+  margin: 5% 0 0 20%;
+}
+
+#contato{
+  position: relative;
+  text-shadow: 2px 2px black;
+  text-align: center;
+  height: 200px;
+  width: 250px;
+  margin: 2% 20% 0 0;
+  float: right;
+}
+
+#in{
+  color:rgb(10, 10, 168);
+  font-size: 60px;
+}
+
+#email{
+  color: red;
+  font-size: 60px;
+}
+
+#whatsapp{
+  color: green;
+  font-size: 60px;
+}
+
+#descricao{
+  background-color: rgb(10, 68, 148, 0.6);
+  position: absolute;
+  width: 100%;
+  height: 300px;
+}
+
+#foto{
+  background-image: url(img/foto.png);
+  background-size: 100%;
+  background-repeat: no-repeat;
+  width: 120px;
+  height: 140px;
+  border-radius: 100%;
+  margin: 0 0 0 15%;
+}
+
+#sobre_mim{
+  width: 60%;
+  text-align: justify;
+  margin: 4% 0 0 2%;
+  font-size: 16px;
+  text-shadow: 2px 2px rgb(0, 0, 0);
+}
+
+button{
+  background-color: rgba(255, 222, 92, 0.6);
+  border-radius: 4px;
+  height: 40px;
+  width: 200px;
+  font-family: Verdana;
+  font-size: 16px;
+  color: rgb(0, 0, 0);
+  text-shadow: 2px 2px rgb(227, 227, 227);
+}
+
+body{
+background-image: url(img/background2.jpg);
+background-size: cover;
+background-position: center;
+background-attachment: fixed;
+background-repeat: no-repeat;
+-webkit-background-size: cover;
+-moz-background-size: cover;
+-o-background-size: cover;
+overflow: visible;
+display: block;
+width: 100%;
+height: 100%;
+} 
+
+#trabalhos{
+  width: 100%;
+  height: 300px;
+  text-align: center;
+  background-color: rgb(209, 138, 57, 0.6);
+  position: relative;
+}
+
+#cidade{
+  width: 100%;
+  height: 200px;
+  text-align: center;
+  background-color: rgb(0, 0, 0);
+  margin-top: 0%;
+  position: absolute;
+}
