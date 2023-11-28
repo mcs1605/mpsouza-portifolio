@@ -45,7 +45,7 @@ header{
   font-size: 20px;
   height: 100px;
   width: 400px;
-  margin-left: 40px;
+  margin-left: 100px;
 }
 
 #contato{
@@ -54,6 +54,7 @@ header{
   text-align: center;
   height: 200px;
   width: 250px;
+  margin-right: 100px;
 }
 
 #in{
