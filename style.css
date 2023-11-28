@@ -41,11 +41,11 @@ header{
 }
 
 #titulo{
-  position: relative;
+  position: absolute;
   font-size: 20px;
   height: 100px;
   width: 400px;
-  margin: 5% 0 0 20%;
+  margin-left: 40px;
 }
 
 #contato{
@@ -54,8 +54,6 @@ header{
   text-align: center;
   height: 200px;
   width: 250px;
-  margin: 2% 20% 0 0;
-  float: right;
 }
 
 #in{
