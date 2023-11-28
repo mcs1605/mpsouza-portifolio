@@ -132,6 +132,15 @@ a.site1, a.site2, a.site3, a.site4, a.site5{
 }
 
 #site5{
+    background-image: url(img/siteTecBlog.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    width: 400px;
+    height: 200px;
+    border-radius: 80px 0 80px 0;
+}
+
+#site6{
     background-image: url(img/commingSoon.jpg);
     background-size: 100%;
     background-repeat: no-repeat;
