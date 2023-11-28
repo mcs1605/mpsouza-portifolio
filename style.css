@@ -46,16 +46,17 @@ header{
   height: 100px;
   width: 400px;
   margin-left: 100px;
-  margin-top: 50px;
+  margin-top: 200px;
 }
 
 #contato{
-  position: absolute;
+  position: relative;
   text-shadow: 2px 2px black;
   text-align: center;
   height: 200px;
   width: 250px;
   margin-right: 100px;
+  float: right;
 }
 
 #in{
