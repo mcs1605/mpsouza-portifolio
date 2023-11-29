@@ -11,7 +11,8 @@ Esse foram os primeiros projetos de páginas em HTML-CSS-JS
   As páginas secundárias seriam os subdomínios da página página principal mencionada acima.
   Objetivo: adicionar ao menos 50 páginas que envolve páginas simples, blogs, templates, repositórios, bibliotecas, etc...<br>
 
-1)cobras-expedicionarias.atwebpages.com<br>
-2)horror-ebooks.atwebpages.com<br>
-3)projetoAnnaBellaCSS<br>
-4)projetoUNES
+1)cobras-expedicionarias<br>
+2)horror-ebooks<br>
+3)lara_bela<br>
+4)UNES<br>
+5)tecblog
