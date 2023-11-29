@@ -8,7 +8,7 @@ html{
 }
 
 body{
-    background-color: bisque;
+    background-image: url(img/fundoIndes2.jpg);
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
