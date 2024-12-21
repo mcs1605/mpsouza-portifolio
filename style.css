@@ -1,0 +1,151 @@
+/*Portifolio*/
+
+html{
+  min-height: 100%;
+  width: 100%;
+  object-fit: cover;
+  color: white;
+  background-color: black;
+}
+
+h1{
+  font-family: Helvetica;
+  font-size: 60px;
+  color: white;
+  text-shadow: 2px 2px 2px black;
+  color: lightgray;
+}
+
+h2{
+  font-family: monospace;
+  font-size: 30px;
+  color: white;
+  text-shadow: 2px 2px 2px black;
+  text-align: center;
+  }
+
+p{
+  font-family: Verdana;
+  font-size: 22px;
+  color: white;
+}
+
+div {
+  display: inline-block;
+}
+
+header { 
+  display: flex;
+  background-color: rgba(0, 0, 0, 1);
+  min-height: 5em;
+  width: 100%;
+}
+
+#menu {
+  width: 40%;
+  margin: 1em 0 0 10em;
+}
+
+#navegacao,a {
+  text-decoration: none;
+  display: inline;
+  font-size: 40px;
+  color:white;
+}
+
+#descricao{
+  position: absolute;
+  width: 80%;
+  height: 50em;
+}
+
+#foto{
+  background-color: black;
+  border: solid rgba(255, 166, 0, 0.334) 8px;
+  background-image: url(img/foto.jpg);
+  border-radius: 12px;
+  background-size: 100%;
+  background-repeat: no-repeat;
+  width: 30em;
+  height: 40em;
+  margin: 0.5em 0 0 30%;
+}
+
+#sobre_mim{
+  min-height: 8em;
+  width: 100%;
+  text-align: justify;
+  margin: 1em 0 0 6em;
+  font-size: 12px;
+  text-shadow: 2px 2px rgb(0, 0, 0);
+  padding: 1em;
+}
+
+#contato {
+  position: absolute;
+  margin: 1em 0 0 0;
+  min-height: 2em;
+  text-shadow: 2px 2px black;
+  width: 60%;
+  padding: 1em;
+}
+
+#in{
+  color:rgb(10, 10, 168);
+  font-size: 60px;
+}
+
+#email{
+  margin-left: 0.5em;
+  color: red;
+  font-size: 60px;
+}
+
+#whatsapp{
+  margin-left: 0.5em;
+  color: green;
+  font-size: 60px;
+}
+
+button{
+  background-color: rgba(255, 222, 92, 0.6);
+  border-radius: 2em;
+  height: 40px;
+  width: 200px;
+  font-family: Verdana;
+  font-size: 16px;
+  color: rgb(0, 0, 0);
+  text-shadow: 2px 2px rgb(227, 227, 227);
+}
+
+body{
+background-image: url(img/background2.jpg);
+background-size: cover;
+background-position: center;
+background-attachment: fixed;
+background-repeat: no-repeat;
+-webkit-background-size: cover;
+-moz-background-size: cover;
+-o-background-size: cover;
+overflow: visible;
+display: block;
+width: 100%;
+height: 100%;
+} 
+
+#trabalhos{
+  width: 91%;
+  height: 9em;
+  text-align: center;
+  background-color: rgb(209, 138, 57, 0.6);
+  position: relative;
+  padding: 1em;
+  margin: 0.5em 0 0 1em;
+}
+
+#cidade{
+  width: 100%;
+  height: 6em;
+  margin: 1em;
+  padding: 1em;
+}
