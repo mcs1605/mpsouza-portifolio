@@ -1,10 +1,11 @@
 /*Portifolio*/
 
 html{
-  background-color: black;
   min-height: 100%;
   width: 100%;
-  object-fit: cover; 
+  object-fit: cover;
+  color: white;
+  background-color: black;
 }
 
 h1{
@@ -29,35 +30,64 @@ p{
   color: white;
 }
 
-div{
+div {
   display: inline-block;
 }
 
-header{ 
-  display: inline-block;
-  background-color: rgba(0, 0, 0, 0.6);
-  height: 300px;
+header { 
+  display: flex;
+  background-color: rgba(0, 0, 0, 1);
+  min-height: 5em;
   width: 100%;
 }
 
-#titulo{
-  position: absolute;
-  font-size: 20px;
-  height: 100px;
-  width: 700px;
-  margin-left: 160px;
-  margin-top: 135px;
+#menu {
+  width: 40%;
+  margin: 1em 0 0 10em;
 }
 
-#contato{
-  position: relative;
+#navegacao,a {
+  text-decoration: none;
+  display: inline;
+  font-size: 40px;
+  color:white;
+}
+
+#descricao{
+  position: absolute;
+  width: 80%;
+  height: 50em;
+}
+
+#foto{
+  background-color: black;
+  border: solid rgba(255, 166, 0, 0.334) 8px;
+  background-image: url(img/foto.jpg);
+  border-radius: 12px;
+  background-size: 100%;
+  background-repeat: no-repeat;
+  width: 30em;
+  height: 40em;
+  margin: 0.5em 0 0 30%;
+}
+
+#sobre_mim{
+  min-height: 8em;
+  width: 100%;
+  text-align: justify;
+  margin: 1em 0 0 6em;
+  font-size: 12px;
+  text-shadow: 2px 2px rgb(0, 0, 0);
+  padding: 1em;
+}
+
+#contato {
+  position: absolute;
+  margin: 1em 0 0 0;
+  min-height: 2em;
   text-shadow: 2px 2px black;
-  text-align: center;
-  height: 200px;
-  width: 250px;
-  margin-right: 160px;
-  margin-top: 50px;
-  float: right;
+  width: 60%;
+  padding: 1em;
 }
 
 #in{
@@ -66,43 +96,20 @@ header{
 }
 
 #email{
+  margin-left: 0.5em;
   color: red;
   font-size: 60px;
 }
 
 #whatsapp{
+  margin-left: 0.5em;
   color: green;
   font-size: 60px;
 }
 
-#descricao{
-  background-color: rgb(10, 68, 148, 0.6);
-  position: absolute;
-  width: 100%;
-  height: 300px;
-}
-
-#foto{
-  background-image: url(img/foto.png);
-  background-size: 100%;
-  background-repeat: no-repeat;
-  width: 120px;
-  height: 140px;
-  border-radius: 100%;
-  margin: 0 0 0 15%;
-}
-
-#sobre_mim{
-  width: 60%;
-  text-align: justify;
-  margin: 4% 0 0 2%;
-  font-size: 16px;
-  text-shadow: 2px 2px rgb(0, 0, 0);
-}
-
 button{
   background-color: rgba(255, 222, 92, 0.6);
-  border-radius: 4px;
+  border-radius: 2em;
   height: 40px;
   width: 200px;
   font-family: Verdana;
@@ -127,18 +134,18 @@ height: 100%;
 } 
 
 #trabalhos{
-  width: 100%;
-  height: 300px;
+  width: 91%;
+  height: 9em;
   text-align: center;
   background-color: rgb(209, 138, 57, 0.6);
   position: relative;
+  padding: 1em;
+  margin: 0.5em 0 0 1em;
 }
 
 #cidade{
   width: 100%;
-  height: 200px;
-  text-align: center;
-  background-color: rgb(0, 0, 0);
-  margin-top: 0%;
-  position: absolute;
+  height: 6em;
+  margin: 1em;
+  padding: 1em;
 }

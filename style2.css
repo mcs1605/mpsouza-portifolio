@@ -22,12 +22,13 @@ body{
 }
 
 .table{
-    margin-left: 10%;
+    margin: 5% 2% 0 20%;
+    display: flex;
 }
 
 button{
     background-color: rgba(255, 222, 92, 0.6);
-    border-radius: 4px;
+    border-radius: 10em;
     height: 40px;
     width: 200px;
     font-family: Verdana;
@@ -59,11 +60,7 @@ p{
 }
 
 div{
-    display: inline-block;
-}
-
-table{
-    margin: 10% 0 0 18%;
+    display: grid;
 }
 
 table tr{
@@ -72,10 +69,10 @@ table tr{
 
 table td{
     width: 500px;
-    text-align: center;
 }
 
-#site1:hover, #site2:hover, #site3:hover, #site4:hover, #site5:hover{
+#site1:hover, #site2:hover, #site3:hover, #site4:hover, #site5:hover,
+#site6:hover, #site7:hover {
     -webkit-transform: scale(1.8);
     -moz-transform: scale(1.8);
     -o-transform: scale(1.8);
@@ -83,7 +80,7 @@ table td{
     transform: scale(1.8);
 }
   
-a.site1, a.site2, a.site3, a.site4, a.site5{
+a.site1, a.site2, a.site3, a.site4, a.site5, a.site6, a.site7 {
     text-decoration: none;
     background-size: 100%;
     background-repeat: no-repeat;
@@ -150,7 +147,7 @@ a.site1, a.site2, a.site3, a.site4, a.site5{
 }
 
 #site7{
-    background-image: url(img/construcao.jpg);
+    background-image: url(img/contrucao.jpg);
     background-size: 100%;
     background-repeat: no-repeat;
     width: 400px;
