@@ -1,6 +1,7 @@
 /*Portifolio*/
 
 html{
+  margin: 0;
   min-height: 100%;
   width: 100%;
   object-fit: cover;
@@ -9,6 +10,7 @@ html{
 }
 
 h1{
+  margin: 0;
   font-family: Helvetica;
   font-size: 60px;
   color: white;
@@ -17,6 +19,7 @@ h1{
 }
 
 h2{
+  margin: 0;
   font-family: monospace;
   font-size: 30px;
   color: white;
@@ -25,16 +28,19 @@ h2{
   }
 
 p{
+  margin: 0;
   font-family: Verdana;
   font-size: 22px;
   color: white;
 }
 
 div {
+  margin: 1em;
   display: inline-block;
 }
 
 header { 
+  margin: 0;
   display: flex;
   background-color: rgba(0, 0, 0, 1);
   min-height: 5em;
@@ -53,41 +59,36 @@ header {
   color:white;
 }
 
-#descricao{
-  position: absolute;
-  width: 80%;
-  height: 50em;
-}
-
 #foto{
-  background-color: black;
   border: solid rgba(255, 166, 0, 0.334) 8px;
   background-image: url(img/foto.jpg);
   border-radius: 12px;
   background-size: 100%;
-  background-repeat: no-repeat;
+  background-repeat: repeat;
   width: 30em;
   height: 40em;
-  margin: 0.5em 0 0 30%;
+  margin: 1em 0 0 2em;
+}
+
+.aboutMe {
+  font-size: 26px;
 }
 
 #sobre_mim{
+  float: right;
   min-height: 8em;
-  width: 100%;
+  width: 40em;
   text-align: justify;
-  margin: 1em 0 0 6em;
   font-size: 12px;
   text-shadow: 2px 2px rgb(0, 0, 0);
-  padding: 1em;
+  margin: 10em 2em 0 0em;
 }
 
 #contato {
-  position: absolute;
-  margin: 1em 0 0 0;
+  margin: 10em 0 0 15em;
   min-height: 2em;
   text-shadow: 2px 2px black;
-  width: 60%;
-  padding: 1em;
+  width: 70%;
 }
 
 #in{
@@ -119,7 +120,7 @@ button{
 }
 
 body{
-background-image: url(img/background2.jpg);
+background-image: url(img/office.gif);
 background-size: cover;
 background-position: center;
 background-attachment: fixed;
@@ -134,8 +135,8 @@ height: 100%;
 } 
 
 #trabalhos{
-  width: 91%;
-  height: 9em;
+  width: 22em;
+  height: 6em;
   text-align: center;
   background-color: rgb(209, 138, 57, 0.6);
   position: relative;

@@ -31,19 +31,20 @@ button{
 }
 
 .table{
-    margin: 0 5%;
+    margin: 0 0 0 5em;
     padding: 0em;
-    display: flex;
-    background-image: url(https://i.gifer.com/EPts.gif);
+    display: block;
     background-size: cover;
     background-position: center;
-    background-repeat: repeat;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
     overflow: visible;
     width: 90%;
     height: 100%;
+    background-image: url(img/backgroundCode.jpg);
 }
 
 .container {
