@@ -61,7 +61,7 @@ header {
 
 #foto{
   border: solid rgba(255, 166, 0, 0.334) 8px;
-  background-image: url(img/foto.jpg);
+  background-image: url(img);
   border-radius: 12px;
   background-size: 100%;
   background-repeat: repeat;
