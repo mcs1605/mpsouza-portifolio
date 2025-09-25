@@ -7,6 +7,8 @@ html{
   object-fit: cover;
   color: white;
   background-color: black;
+  display: block;
+  positiom: fixed;
 }
 
 h1{
@@ -150,3 +152,4 @@ height: 100%;
   margin: 1em;
   padding: 1em;
 }
+
